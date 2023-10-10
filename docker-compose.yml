@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  php:
+    image: ramageek/php:8.2-laravel-bun
+    volumes:
+      - .:/var/www/html/
+    ports:
+      - '8000:80'
